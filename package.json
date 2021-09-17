@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^13.1.0",
     "got": "^11.8.2",
+    "node": "^16.9.1",
     "node-fetch": "^3.0.0",
     "youtube-dl-exec": "^1.2.6"
   }
