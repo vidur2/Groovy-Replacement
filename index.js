@@ -2,7 +2,7 @@ import got from "got";
 import { Client, Intents } from "discord.js";
 import { getLink } from "./src/helper_functions.js";
 
-const TOKEN = "ODg4MTYzNzc1MDE3MDA5MjAy.YUOs-Q.WhlKw1E-gmMQVcZ822E7EDQDSQQ";
+const TOKEN = "ODg4MTYzNzc1MDE3MDA5MjAy.YUOs-Q.dg1HMcSCgQczHIrcp3sILTKHLQU";
 const client = new Client({
   intents: [
     Intents.FLAGS.GUILDS,
