@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "discord": "^0.8.2",
     "discord.js": "^13.1.0",
