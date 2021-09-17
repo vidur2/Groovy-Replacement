@@ -27,9 +27,9 @@ client.on("message", async (msg) => {
   if (msg.content.startsWith("-p ") && isPlaying == false) {
     isPlaying = true;
 
-    const link = msg.content.split(" ");
-    const url = await getLink(link[1]).formats[0].url;
-    msg.reply(`Song ${link[1]} has been added to queue`);
+    const link = msg.content.split(" ")[1];
+    const url = await getLink(link).formats[0].url;
+    msg.reply(`Song ${link} has been added to queue`);
     const stream = got.stream(url);
     stream.path = "music.mp3";
     const conn = await message.member.voice.channel.join();
