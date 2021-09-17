@@ -3,7 +3,7 @@ const youtubedl = require("./node_modules/youtube-dl-exec");
 const got = require("./node_modules/got");
 const { Client, Intents } = require("./node_modules/discord.js")
 
-const TOKEN = "ODg4MTYzNzc1MDE3MDA5MjAy.YUOs-Q.WhlKw1E-gmMQVcZ822E7EDQDSQQ";
+const TOKEN = "ODg4MTYzNzc1MDE3MDA5MjAy.YUOs-Q.dg1HMcSCgQczHIrcp3sILTKHLQU";
 // oauth link: "https://discord.com/api/oauth2/authorize?client_id=888163775017009202&permissions=3160064&scope=bot"
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_TYPING, Intents.GUILDS.VOICE_STATES] });
